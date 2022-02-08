@@ -41,5 +41,5 @@
         * defguard
     * Head Clause
 * Testing
-    * Docunent tests
+    * Document tests
     * Unit test
