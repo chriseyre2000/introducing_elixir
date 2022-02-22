@@ -1,15 +1,24 @@
 The Second Lesson
 =================
 
-# Recursion
-# Maps
-# Structs
-# Enum module
-# Stream module
+## Control Structures
 
-# Processes
+### if
+### unless
+### case
+### cond
+### with
 
-## spawn
+
+## Recursion
+## Maps
+## Structs
+## Enum module
+## Stream module
+
+## Processes
+
+### spawn
 
 ```
 defmodule SimpleProc do
@@ -29,7 +38,7 @@ defmodule SimpleProc do
 end
 ```
 
-## send/recieve
+### send/recieve
 
 ```
 defmodule ReplyProcess do
@@ -61,13 +70,13 @@ defmodule ReplyProcess do
   end
 end
 ```
-## Agent
+### Agent
 
 ```
 pid = Agent.start(fn -> 42 end)
 
 ```
 
-## Task
-## GenServer
-## Supervisor
+### Task
+### GenServer
+### Supervisor
