@@ -3,8 +3,35 @@ The Second Lesson
 
 ## Control Structures
 
+Everything is an expression
+
 ### if
+
+For one or two states
+
+```
+if a > 1 do
+  IO.puts "a is greater than 1"
+end
+
+# Will return nil if no else
+
+if a > 1 do
+  IO.puts "bigger"
+else
+  IO.puts "smaller"
+end
+
+```
+
 ### unless
+
+This is the reverse of if
+
+`unless a > 1, do: IO.puts "ghjgj"`
+
+Will return nil
+
 ### case
 ### cond
 ### with
