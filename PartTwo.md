@@ -8,7 +8,21 @@ The Second Lesson
 ### case
 ### cond
 ### with
+```
+defp find_person(1), do: {:ok, 21}
+defp find_person(_), do: {:error, :bad_person}
 
+defp find_address(21), do: {:ok, :the_address}
+defp find_address(_), do: {:error, :no_address}
+
+def combined(id) do
+  with {:ok, person} = find_person(id),
+       {:ok, address} = find_address(person)
+  do
+    address
+  end
+end
+```
 
 ## Recursion
 ## Maps
